@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(218, 161, 216);
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.keyboard {
+    background-color: white;
+    border: 2px solid darkslateblue;
+    border-radius: 4px;
+    padding: 12px 10px;
+}
+
+.key {
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border: 2px solid darkslateblue;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.key:hover {
+    background-color: palevioletred;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.key-pressed {
+    background-color: palevioletred;
+    transition: background-color 0.3s;
+}
+
+
+.backspace {
+    width: 84px;
+}
+
+.delete {
+    margin-left: 20px;
+}
+
+.larger-0 {
+    width: 54px;
+}
+
+.larger-1 {
+    width: 63px;
+}
+
+.larger-2 {
+    width: 80px;
+}
+
+.larger-3 {
+    width: 92px;
+}
+
+.larger-4 {
+    width: 92px;
+}
+
+.larger-5 {
+    width: 278px;
+}
+
+.functions-keys {
+    height: 60px;
+    display: flex;
+}
+
+.function-1-4 {
+    display: flex;
+    padding:0 0 0 40px;
+}
+
+.function-5-8 {
+    display: flex;
+    padding: 0 5px;
+}
+
+.function-9-12 {
+    display: flex;
+    padding:0 50px 0 5px;
+}
+
+.knob {
+    width: 45px;
+    height: 45px;
+    border: 2px solid darkslateblue;
+    border-radius: 50%;
+}
+
+.numbers-keys, .letter-keys {
+    display: flex;
+    width: fit-content;
+}
+
+.up-down-keys {
+    position: relative;
+    bottom: 171px;
+    right: -703px;
+    height: 0;
+}
+
+.status {
+    text-align: center;
+}
