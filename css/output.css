@@ -1,0 +1,117 @@
+body {
+  background-color: rgb(218, 161, 216);
+  overflow-x: hidden;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+}
+
+main {
+  display: grid;
+  justify-items: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+.keyboard {
+  background-color: #e8dbea;
+  border: 2px solid darkslateblue;
+  border-radius: 4px;
+  padding: 12px 10px;
+  box-shadow: 8px 5px 10px black;
+}
+
+.key {
+  width: 42px;
+  height: 42px;
+  background-color: #e8dbea;
+  border: 2px solid darkslateblue;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 12px gray;
+}
+.key:hover, .key-pressed {
+  background-color: palevioletred;
+  transition: background-color 0.3s;
+}
+
+.delete {
+  margin-bottom: 20px;
+}
+
+.larger-0 {
+  width: 54px;
+}
+.larger-1 {
+  width: 63px;
+}
+.larger-2 {
+  width: 80px;
+}
+.larger-3 {
+  width: 84px;
+}
+.larger-4 {
+  width: 92px;
+}
+.larger-5 {
+  width: 276px;
+}
+
+.functions-keys {
+  padding: 0 0 20px 0;
+  display: flex;
+}
+.functions-1-4 {
+  display: flex;
+  padding: 0 5px 0 40px;
+}
+.functions-5-8 {
+  display: flex;
+  padding: 0 5px;
+}
+.functions-9-12 {
+  display: flex;
+  padding: 0 50px 0 5px;
+}
+
+.knob {
+  width: 45px;
+  height: 45px;
+  border: 2px solid darkslateblue;
+  border-radius: 50%;
+  box-shadow: 5px 5px 12px gray;
+}
+
+.numbers-keys, .letter-keys {
+  display: flex;
+  width: fit-content;
+  background: black;
+}
+
+.side-keys {
+  position: relative;
+  bottom: 229px;
+  right: -703px;
+  height: 0;
+}
+
+.footer {
+  position: absolute;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+.footer img {
+  height: 30px;
+}
+
+/*# sourceMappingURL=output.css.map */
